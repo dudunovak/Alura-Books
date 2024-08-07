@@ -1,0 +1,25 @@
+.contato {
+    background-color: var(--branco);
+    padding: 1em;
+}
+.conatato-titulo,
+.contato-texto{
+    background-color: var(azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.conatato-titulo {
+    font-size: 19px;
+    font-weight: 500;
+}
+,.contato-texto {
+    font-weight: 300;
+    margin: 1em 0;
+
+}
+.contato-email {
+    padding: 1em;
+    border: 1px solid var(--azul);
+}
+]
