@@ -4,6 +4,8 @@
     --laranja: #EB9B00;
     --azul-degrade: linear-gradient(97.54deg, #002752, 35.49%, #326589, 165.37%);
     --fonte-principal: "Poppins";
+    --azul:#002f52;
+    --fonte-secundaria: "Josefin Sans"
     }
 body{
     background-color: var(--cor-de-fundo);
@@ -18,6 +20,7 @@ h1{
 @import url(styles/banner.css);
 @import url(styles/carrossel.css);
 @import url(styles/topicos.css);
+@import url(styles/rodape.css);
 @import url(styles/contato.css);
 :root {
     --cor-de-fundo:#EBECEE;
