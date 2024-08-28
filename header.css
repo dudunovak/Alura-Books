@@ -4,7 +4,6 @@
     background-image: url(./img/menu.png);
     background-repeat: no-repeat;
     background-position: center;
-    display: inline-block;
 }
         .lista-menu{
             display: none;
