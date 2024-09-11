@@ -2,9 +2,9 @@
     --cor-de-fundo:#EBECEE;
     --branco: white;
     --laranja: #EB9B00;
-    --azul-degrade: linear-gradient(97.54deg, #002752, 35.49%, #326589, 165.37%);
+    --azul-degrade: linear-gradient(97.54deg, #134f90, 35.49%, #14537f, 165.37%);
     --fonte-principal: "Poppins";
-    --azul:#002f52;
+    --azul:#165c91;
     --fonte-secundaria: "Josefin Sans"
     }
 body{
@@ -26,5 +26,12 @@ h1{
     --cor-de-fundo:#EBECEE;
     --branco: #FFFFFF;
     --laranja:#EB9B00;
-    --azul-degrade: linear-gradient(97.54deg, #002752 )
+    --azul-degrade: linear-gradient(97.54deg, #002752 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002f52; 
+    --fonte-secundaria: "Josefin Sans";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
 }
