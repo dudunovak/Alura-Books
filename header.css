@@ -39,7 +39,10 @@
     .container-botao{
         display: none;
     }
-    @media screen and (min-width: 1024px) {
+    .container-texto{
+        display: none;
+    }
+    @media screen and (min-width: 1728px) {
         .container-titulo,
         .container-titulo-negrito {
             font-family: var(--fonte-secundaria);
@@ -57,4 +60,17 @@
     .container-titulo {
         display: none;
     }    
-    
+    @media screen and (min-width: 1024px) {
+        .container-link{
+            display: flex; 
+            align-items: center;
+            text-decoration: none;
+            color: var(--preto);
+        }
+    }
+        .cabecalho{
+            padding: 0 2 em;
+        }
+        .opcoes{
+            margin-right: auto;
+        }
